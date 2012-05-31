@@ -1,0 +1,4 @@
+color tir_black
+set guifont=Menlo\ Regular:h15
+set guioptions=-t
+
