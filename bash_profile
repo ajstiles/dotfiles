@@ -15,5 +15,14 @@ function check_git_changes {
 }
 export PS1="$YELLOW\w\[\$(check_git_changes)\]\$(parse_git_branch)$LIGHT_GRAY $ "
 
-export PATH="/usr/local/sbin:$PATH"		# For nginx installed via home brew
-export PATH=$PATH:$HOME/.rvm/bin 		# Add RVM to PATH for scripting
+export PATH="/usr/local/sbin:$PATH"   # For nginx installed via home brew
+export PATH=$PATH:$HOME/.rvm/bin      # Add RVM to PATH for scripting
+
+if test -f ~/.rvm/scripts/rvm; then
+    [ "$(type -t rvm)" = "function" ] || source ~/.rvm/scripts/rvm
+fi
+
+alias gpr="git pull --rebase"
+alias gpom="git push origin master"
+alias gcam="git commit -a -m"
+
