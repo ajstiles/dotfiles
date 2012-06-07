@@ -25,4 +25,5 @@ fi
 alias gpr="git pull --rebase"
 alias gpom="git push origin master"
 alias gcam="git commit -a -m"
+alias gd="git diff"
 
