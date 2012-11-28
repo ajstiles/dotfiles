@@ -17,7 +17,6 @@ export PS1="$YELLOW\w\[\$(check_git_changes)\]\$(parse_git_branch)$LIGHT_GRAY $ 
 
 export PATH="/usr/local/sbin:$PATH"   # For nginx installed via home brew
 export PATH=$PATH:$HOME/.rvm/bin      # Add RVM to PATH for scripting
-export EDITOR="subl -w"               # Use Sublime as our git commit editor
 
 if test -f ~/.rvm/scripts/rvm; then
     [ "$(type -t rvm)" = "function" ] || source ~/.rvm/scripts/rvm
