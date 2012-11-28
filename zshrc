@@ -35,6 +35,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$HOME.rvm/gems/ruby-1.9.3-p125/bin:$HOME.rvm/gems/ruby-1.9.3-p125@global/bin:$HOME.rvm/rubies/ruby-1.9.3-p125/bin:$HOME.rvm/bin:/usr/local/sbin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+export EDITOR="subl -w"
 
 alias gpr="git pull --rebase"
 alias gpom="git push origin master"
