@@ -43,3 +43,5 @@ alias gcam="git commit -a -m"
 alias gd="git diff"
 alias be="bundle exec"
 alias bi="bundle install"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
